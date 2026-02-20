@@ -192,5 +192,5 @@ Leaflet est utilisé directement dans un composable avec `onMounted` — pas de 
 * [x] **Leaflet** — chercher sur context7
 * [x] **sass (dart-sass)** — chercher sur context7
 * [ ] **@vite-pwa/nuxt** — chercher sur context7
-* [ ] **@nuxtjs/i18n** — chercher sur context7
+* [x] **@nuxtjs/i18n** — chercher sur context7
 * [ ] **posthog-js** — chercher sur context7

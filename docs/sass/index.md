@@ -1,3 +1,0 @@
-# Sommaire
-
-- [index](index.md)

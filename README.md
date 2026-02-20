@@ -119,6 +119,15 @@ echo "* [Sass](./sass/index.md)" >> docs/index.md;
 curl https://i18n.nuxtjs.org/llms-full.txt > docs/i18n-nuxt.md && \
 node ./script/md_split.mjs docs/i18n-nuxt.md docs/i18n-nuxt '###' && \
 rm docs/i18n-nuxt.md && \
-echo "* [i18n Nuxt](./i18n-nuxt.md/index.md)" >> docs/index.md;
+echo "* [i18n Nuxt](./i18n-nuxt/index.md)" >> docs/index.md;
+```
+
+
+### Vite PWA
+```shell
+curl https://vite-pwa-org.netlify.app/llms-full.txt > docs/vite-pwa.md && \
+node ./script/md_split.mjs docs/vite-pwa.md docs/vite-pwa '###' && \
+rm docs/vite-pwa.md && \
+echo "* [Vite PWA](./vite-pwa/index.md)" >> docs/index.md;
 ```
 
