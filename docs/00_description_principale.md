@@ -59,4 +59,4 @@ Il faudrait avoir une librairie type GPS.
 Idée Expérience utilisateur.
 
 Avoir une sorte de progress bar pour savoir où on en est.  
-Les textes peuvent être narré par l’application.
+Les textes peuvent être narrés par l’application.
