@@ -1,0 +1,2 @@
+### Method
+Factory function

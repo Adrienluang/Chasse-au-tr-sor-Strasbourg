@@ -2,3 +2,4 @@
 * [Vite](./vite/index.md)
 * [vuejs](./vuejs/index.md)
 * [Vue router](./vuerouter/index.md)
+* [Leaflet](./leafletjs/index.md)

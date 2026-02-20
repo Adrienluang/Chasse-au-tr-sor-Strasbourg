@@ -40,7 +40,7 @@ rm docs/vite.md && \
 echo "* [Vite](./vite/index.md)" >> docs/index.md;
 ```
 
-### Vite
+### Vitest
 ```shell
 curl https://vitest.dev/llms-full.txt > docs/vitest.md && \
 node ./script/md_split.mjs docs/vitest.md docs/vitest '#' && \
@@ -95,3 +95,21 @@ node ./script/md_split.mjs docs/vuerouter.md docs/vuerouter '###' && \
 rm docs/vuerouter.md && \
 echo "* [Vue router](./vuerouter/index.md)" >> docs/index.md;
 ```
+
+### Leaflet
+```shell
+curl https://context7.com/websites/leafletjs/llms.txt > docs/leafletjs.md && \
+node ./script/md_split.mjs docs/leafletjs.md docs/leafletjs '###' && \
+rm docs/leafletjs.md && \
+echo "* [Leaflet](./leafletjs/index.md)" >> docs/index.md;
+```
+
+
+### Sass
+```shell
+curl https://context7.com/sass/sass > docs/sass.md && \
+node ./script/md_split.mjs docs/sass.md docs/sass '###' && \
+rm docs/leafletjs.md && \
+echo "* [Sass](./sass/index.md)" >> docs/index.md;
+```
+
