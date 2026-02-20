@@ -40,7 +40,7 @@ Application Vue 3 + Vite (PWA/Web app) pour une chasse au trésor immersive dans
 
 ### Parcours (17 waypoints dans l'ordre)
 
-Place Saint-Étienne → Quai des Pêcheurs → Restaurant "Au Canon" → Quai Saint-Nicolas → Rue du Vieux-Marché-aux-Poissons → Rue des Dentelles → Quai de la Petite France → Place Benjamin Zix → Pont du Faisan → Les Ponts Couverts → Barrage Vauban → Rue du Bain-aux-Plantes → Grand'Rue → Rue St-Hélène → Place Kléber → Place du Temple Neuf → Cathédrale de Strasbourg
+Place Saint-Étienne → Quai des Pêcheurs → Restaurant "Au Canon" → Quai Saint-Nicolas → Rue du Vieux-Marché-aux-Poissons → Rue des Dentelles → Quai de la Petite France → Place Benjamin Zix → Pont du Faisan → Les Ponts Couverts → Barrage Vauban → Rue du Bain-aux-Plantes → Grand'Rue → Rue des Tanneurs → Place Kléber → Place du Temple Neuf → Cathédrale de Strasbourg
 
 ### Clés API
 

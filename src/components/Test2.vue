@@ -24,7 +24,7 @@ const coordinates = [
     { name: 'Barrage Vauban', coord: [ 48.579748, 7.738007 ] },
     { name: 'Rue du Bain-aux-Plantes', coord: [ 48.581540, 7.740577 ] },
     { name: 'Grand’Rue', coord: [ 48.581881, 7.741832 ] },
-    { name: 'Rue St-Hélène', coord: [ 48.581498, 7.744127 ] },
+    { name: 'Rue des Tanneurs', coord: [ 48.581498, 7.744127 ] }, // TODO: coordonnées à vérifier sur le terrain
     { name: 'Place Kléber', coord: [ 48.583562, 7.745787 ] },
     { name: 'Place du Temple Neuf', coord: [ 48.583525622459184, 7.747918710384864 ] },
     { name: 'Cathédrale de Strasbourg', coord: [ 48.58198626194183, 7.751109881062819 ] }

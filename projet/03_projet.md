@@ -315,13 +315,13 @@ EXPOSE 80
 ## 7. Questions ouvertes — à traiter avec Adrien
 
 **Contenu narratif**
-- Textes narratifs pour ~10 waypoints manquants (FR + EN) → **en attente Adrien** (`projet/05_demande_adrien.md`)
+- Textes narratifs : complets (voir `projet/01_parcour_cree_par_adrien.md`) — document Adrien = référence
 - Type de chaque waypoint (`fragment` / `narratif` / `depart` / `fin`) → **à définir ensemble**
 - Illustrations : si présentes, format markdown embarqué — ✅ décidé
 
 **Game design**
 - Rayon GPS : configurable par waypoint (`proximiteMetres`), valeur par défaut 80m — ✅ décidé
-- Carte : tracé complet visible dès le début, ou dévoilement progressif ? → **en attente Adrien** (`projet/05_demande_adrien.md`)
+- Carte : configurable par l'utilisateur (choix stocké en localStorage) — ✅ décidé
 
 **Technique et infrastructure**
 - Domaine MVP : `chasse-tresor.mathieufroehly.fr`, facilement modifiable via variable d'env — ✅ décidé
@@ -353,10 +353,11 @@ Technique :
 - [ ] Externalisation clé GraphHopper en variable d'environnement
 
 Contenu (Adrien) :
-- [ ] Complétion des textes narratifs pour les 17 waypoints (FR + EN)
-- [ ] Classification type pour chaque waypoint (fragment / narratif / depart / fin)
+- [x] Textes narratifs — quasi complets (voir `projet/01_parcour_cree_par_adrien.md`)
+- [x] Clarification Rue des Tanneurs vs Rue St-Hélène — doc Adrien = référence ✅
+- [ ] Classification type pour chaque étape (fragment / narratif / depart / fin) — à définir ensemble
 - [ ] Vérification coordonnées GPS + rayon de proximité (test terrain)
-- [ ] Illustrations éventuelles
+- [ ] Illustrations éventuelles (format : markdown embarqué)
 
 ### V2 — Enrichissement
 
