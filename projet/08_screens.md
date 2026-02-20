@@ -67,7 +67,7 @@ S10 Modal reset
 **Fichier :** `app/pages/index.vue`
 
 - Pas d'UI visible (spinner 200ms max)
-- Lit localStorage → redirige via `navigateTo()` (côté client uniquement)
+- Lit localStorage (opération client uniquement — `localStorage` n'existe pas côté serveur) → redirige via `navigateTo()`
 - Logique de redirection :
   - UUID absent → `/onboarding`
   - UUID présent + `onboarding_done` absent → `/onboarding`
@@ -214,7 +214,7 @@ S10 Modal reset
 | Composable | Fichier | Rôle |
 |------------|---------|------|
 | `useProgression.ts` | `app/composables/useProgression.ts` | Lecture/écriture localStorage : UUID, checkpoints validés, langue, step onboarding, flag `onboarding_done` |
-| `useGeolocation.ts` | `app/composables/useGeolocation.ts` | Wrapper `watchPosition` + calcul distance Haversine + debounce 3s + gestion erreurs GPS |
+| `useGeolocation.ts` | `app/composables/useGeolocation.ts` | Wrapper `watchPosition` + calcul distance Haversine + debounce 3s + gestion erreurs GPS — `watchPosition` appelé dans `onMounted` uniquement (ou guard `if (import.meta.client)` pour éviter les erreurs SSR) |
 | `useCheckpointContent.ts` | `app/composables/useCheckpointContent.ts` | Accès au contenu narratif statique (FR/EN) par ID de checkpoint (1–17) |
 
 ---
@@ -225,10 +225,20 @@ S10 Modal reset
 |------------|---------|-------|-----------------|
 | `auth` | `app/middleware/auth.ts` | UUID absent → redirect `/onboarding` | S07, S08, S09 |
 | `checkpoint-guard` | `app/middleware/checkpoint-guard.ts` | Checkpoint[id] non débloqué → redirect `/map` | S08 |
-| `parcours-actif` | `app/middleware/parcours-actif.ts` | Progression < 17 → redirect `/fin` non applicable ; progression = 17 → redirect `/fin` | S07 (partiel), S09 |
+| `parcours-actif` | `app/middleware/parcours-actif.ts` | Progression < 17 → redirect `/map` (protège S09) | S09 |
 
-> **Note :** `parcours-actif` sur S09 empêche l'accès direct à `/fin` si le parcours n'est pas terminé.
-> `auth` est déclaré comme middleware global ou ajouté explicitement sur chaque page concernée (au choix à l'implémentation).
+> **Note — `auth` global vs explicite :**
+> Un middleware nommé `auth.ts` (sans suffixe) n'est **pas** global automatiquement — il doit être déclaré sur chaque page via `definePageMeta({ middleware: 'auth' })`.
+> Pour un middleware global (appliqué à toutes les routes sans `definePageMeta`), le fichier doit se nommer **`auth.global.ts`**.
+> Source : [Nuxt docs — Route middleware](https://nuxt.com/docs/guide/directory-structure/middleware)
+>
+> **Note — syntaxe dans les middlewares :**
+> `navigateTo()` doit toujours être **`return`-é** (jamais `await`-é) dans un middleware :
+> ```ts
+> export default defineNuxtRouteMiddleware((to) => {
+>   if (!uuid) return navigateTo('/onboarding')
+> })
+> ```
 
 ---
 
