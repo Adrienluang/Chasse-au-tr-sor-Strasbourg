@@ -5,3 +5,5 @@
 * [Leaflet](./leafletjs/index.md)
 * [i18n Nuxt](./i18n-nuxt/index.md)
 * [Vite PWA](./vite-pwa/index.md)
+* [Sass](./sass/index.md)
+* [Posthog](./posthog/index.md)

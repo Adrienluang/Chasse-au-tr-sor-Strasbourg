@@ -107,7 +107,7 @@ echo "* [Leaflet](./leafletjs/index.md)" >> docs/index.md;
 
 ### Sass
 ```shell
-curl https://context7.com/sass/sass > docs/sass.md && \
+curl https://context7.com/sass/sass/llms.txt > docs/sass.md && \
 node ./script/md_split.mjs docs/sass.md docs/sass '###' && \
 rm docs/sass.md && \
 echo "* [Sass](./sass/index.md)" >> docs/index.md;
@@ -129,5 +129,13 @@ curl https://vite-pwa-org.netlify.app/llms-full.txt > docs/vite-pwa.md && \
 node ./script/md_split.mjs docs/vite-pwa.md docs/vite-pwa '###' && \
 rm docs/vite-pwa.md && \
 echo "* [Vite PWA](./vite-pwa/index.md)" >> docs/index.md;
+```
+
+
+### Posthog
+```shell
+mkdir docs/posthog && \
+curl https://posthog.com/llms.txt > docs/posthog/index.md && \
+echo "* [Posthog](./posthog/index.md)" >> docs/index.md;
 ```
 

@@ -185,12 +185,12 @@ Leaflet est utilisé directement dans un composable avec `onMounted` — pas de 
 > Cocher quand la doc est installée dans `docs/` et référencée dans `docs/index.md`.
 > Pour les éléments sans lien llms.txt connu : chercher sur [context7.com](https://context7.com).
 
-* [x] **Nuxt** — `https://nuxt.com/llms-full.txt` — déjà dans `docs/nuxt/`
-* [x] **Vite** — `https://vite.dev/llms-full.txt`
-* [x] **Vue 3** — chercher sur context7
-* [x] **Vue Router** — chercher sur context7
-* [x] **Leaflet** — chercher sur context7
-* [x] **sass (dart-sass)** — chercher sur context7
-* [ ] **@vite-pwa/nuxt** — chercher sur context7
-* [x] **@nuxtjs/i18n** — chercher sur context7
-* [ ] **posthog-js** — chercher sur context7
+* [x] **Nuxt**
+* [x] **Vite**
+* [x] **Vue 3**
+* [x] **Vue Router**
+* [x] **Leaflet**
+* [x] **sass (dart-sass)**
+* [x] **@vite-pwa/nuxt**
+* [x] **@nuxtjs/i18n**
+* [x] **posthog-js**
