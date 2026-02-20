@@ -147,7 +147,7 @@ En V1, le contenu (textes narratifs, coordonnées GPS, types de marqueurs) est s
 | Géolocalisation | **Web Geolocation API** (native) | Lib tierce | Aucune dépendance externe nécessaire |
 | i18n | **@nuxtjs/i18n** | Vue i18n manuel | Intégration Nuxt native |
 | PWA | **@vite-pwa/nuxt** | — | Cache offline, installable |
-| Analytics | **PostHog** | Matomo | Product analytics (funnels, events) vs web analytics |
+| Analytics V2+ | **PostHog** self-hosted | Matomo | Product analytics (funnels, events) — hors scope V1 (RGPD) |
 | DB V2+ | **PostgreSQL + Drizzle ORM** | Prisma, SQLite | Déjà dans l'infra Dokploy ; Drizzle = léger + Edge-compatible |
 | Auth admin V2+ | **nuxt-auth-utils** | JWT custom | Minimal + Cloudflare Access en couche réseau |
 
@@ -229,7 +229,7 @@ interface Waypoint {
     dateNarrative?: string       // ex : "17 février 1871"
     texteFr: string
     texteEn: string
-    illustration?: string        // chemin vers /public/assets/
+    illustration?: string        // markdown embarqué (optionnel, fourni par Adrien)
   }
 }
 ```
@@ -292,7 +292,7 @@ EXPOSE 80
 |---|---|---|
 | `GRAPHHOPPER_API_KEY` | Calcul d'itinéraire | Actuellement hardcodé dans Test2.vue — à externaliser |
 | `NUXT_PUBLIC_APP_URL` | URL de l'application | ex : `https://chasse-tresor.domaine.com` |
-| `NUXT_PUBLIC_POSTHOG_KEY` | Analytics PostHog | Clé publique (OK côté client) |
+| `NUXT_PUBLIC_POSTHOG_KEY` | Analytics PostHog | **V2** — hors scope V1 |
 
 ### DNS Cloudflare
 
@@ -314,20 +314,18 @@ EXPOSE 80
 
 ## 7. Questions ouvertes — à traiter avec Adrien
 
-Ces questions doivent être résolues avant de commencer le développement.
-
 **Contenu narratif**
-- Les 7 waypoints documentés dans `docs/01_parcour_cree_par_adrien.md` ont leurs textes. Il manque les textes pour ~10 waypoints. Adrien peut-il les compléter ?
-- Pour chaque waypoint : quel type ? (`fragment` = validation GPS obligatoire, `narratif` = passage libre avec contenu, `depart`, `fin`)
-- Des illustrations sont-elles prévues ? Sous quelle forme (dessins, photos d'ambiance, aucune) ?
+- Textes narratifs pour ~10 waypoints manquants (FR + EN) → **en attente Adrien** (`projet/05_demande_adrien.md`)
+- Type de chaque waypoint (`fragment` / `narratif` / `depart` / `fin`) → **à définir ensemble**
+- Illustrations : si présentes, format markdown embarqué — ✅ décidé
 
 **Game design**
-- Rayon de validation GPS : 80m par défaut, mais à tester sur le terrain. Certaines ruelles du centre peuvent nécessiter 50m. Adrien peut-il faire un test terrain ?
-- Que voir sur la carte avant le début ? Le tracé complet, ou uniquement le 1er waypoint, le reste se révélant au fur et à mesure ?
+- Rayon GPS : configurable par waypoint (`proximiteMetres`), valeur par défaut 80m — ✅ décidé
+- Carte : tracé complet visible dès le début, ou dévoilement progressif ? → **en attente Adrien** (`projet/05_demande_adrien.md`)
 
 **Technique et infrastructure**
-- Quel nom de domaine ? (`chasse-tresor-strasbourg.fr`, `mysteres-strasbourg.com`, sous-domaine d'un domaine existant ?)
-- PostHog : déployé en self-hosted sur Dokploy — ✅ décidé
+- Domaine MVP : `chasse-tresor.mathieufroehly.fr`, facilement modifiable via variable d'env — ✅ décidé
+- PostHog : repoussé en V2 (complexité RGPD hors scope V1) — ✅ décidé
 
 ---
 
@@ -350,7 +348,7 @@ Technique :
 - [ ] Consentement RGPD minimal
 - [ ] i18n FR/EN (`@nuxtjs/i18n`)
 - [ ] PWA (manifest + service worker via `@vite-pwa/nuxt`)
-- [ ] Intégration PostHog (events : `checkpoint_validated`, `parcours_started`, `parcours_completed`)
+- [ ] ~~Intégration PostHog~~ → V2
 - [ ] Dockerfile + compose Dokploy
 - [ ] Externalisation clé GraphHopper en variable d'environnement
 

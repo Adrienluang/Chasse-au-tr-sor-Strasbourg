@@ -98,15 +98,8 @@ Leaflet est utilisé directement dans un composable avec `onMounted` — pas de 
 
 ## 6. Analytics
 
-| Package | Type | Rôle |
-|---|---|---|
-| `posthog-js` | dep | Product analytics : events `checkpoint_validated`, `parcours_started`, `parcours_completed` |
-
-**Service externe :** PostHog **self-hosted** (déployé sur le serveur Dokploy, même infra que l'app) — clé publique en `NUXT_PUBLIC_POSTHOG_KEY`
-
-**Documentation :**
-- PostHog JS SDK : <https://posthog.com/docs/libraries/js>
-- PostHog Nuxt integration : <https://posthog.com/docs/libraries/nuxt-js>
+> **Hors scope V1** — repoussé en V2 pour éviter la complexité RGPD et les obligations de consentement associées.
+> PostHog self-hosted (Dokploy) sera ajouté en V2.
 
 ---
 
@@ -193,4 +186,4 @@ Leaflet est utilisé directement dans un composable avec `onMounted` — pas de 
 * [x] **sass (dart-sass)**
 * [x] **@vite-pwa/nuxt**
 * [x] **@nuxtjs/i18n**
-* [x] **posthog-js**
+* ~~**posthog-js**~~ — V2
