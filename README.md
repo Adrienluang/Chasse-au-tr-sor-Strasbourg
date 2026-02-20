@@ -109,7 +109,7 @@ echo "* [Leaflet](./leafletjs/index.md)" >> docs/index.md;
 ```shell
 curl https://context7.com/sass/sass > docs/sass.md && \
 node ./script/md_split.mjs docs/sass.md docs/sass '###' && \
-rm docs/leafletjs.md && \
+rm docs/sass.md && \
 echo "* [Sass](./sass/index.md)" >> docs/index.md;
 ```
 
