@@ -8,17 +8,26 @@
 
 Il a envoyé 18 images dans `Photos ancienne Stras.docx` (extraites dans `photos_anciennes_stras/`).
 
-**Problème :** 10 images sur 18 n'ont pas de lieu associé dans le document.
-Seule la section "Place Benjamin Zix" était nommée (8 images).
+**État actuel :** 6 images ont un lieu identifié via les commentaires du document Word.
+12 images restent sans lieu associé.
 
-**À faire en réunion :**
-- Passer les 10 images sans lieu avec lui et noter à quel checkpoint ou zone chacune appartient
-- Distinguer : image de checkpoint (mécanique) vs image d'ambiance (décorative)
-- Voir son "carnet" physique qu'il veut montrer — c'est là que la logique visuelle est expliquée
+**Images déjà mappées (commentaires Adrien) :**
 
-**Images à classer (bloc sans section) :**
-`image18.jpg`, `image14.jpg`, `image17.jpg`, `image16.jpg`, `image15.jpg`, `image13.jpg`,
-`image6.png`, `image5.png`, `image2.png`, `image11.png`
+| Fichier | Lieu |
+|---|---|
+| `image15.jpg` | 2. Lieu : Quai des Pêcheurs |
+| `image14.jpg` | 2. Lieu : Quai Saint-Nicolas |
+| `image18.jpg` | 3. Lieu : Restaurant "Au Canon" |
+| `image13.jpg` | 5. Lieu : Rue du Vieux-Marché-aux-Poissons |
+| `image17.jpg` | 6. Lieu : Place du Temple Neuf |
+| `image16.jpg` | Lieu 7 : Place de la cathédrale |
+
+**À faire en réunion — classer les 12 images restantes :**
+`image6.png`, `image5.png`, `image2.png`, `image11.png` (avant section "Place Benjamin Zix")
+`image9.png`, `image7.png`, `image12.png`, `image8.png`, `image10.png`, `image4.png`, `image3.png`, `image1.png` (section "Place Benjamin Zix")
+
+Pour chacune : lieu/checkpoint associé, ou confirmer que c'est une image d'ambiance sans mécanique.
+Voir aussi son "carnet" physique — c'est là que la logique visuelle complète est expliquée.
 
 ---
 
