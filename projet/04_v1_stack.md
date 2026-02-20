@@ -9,17 +9,27 @@
 
 | Package | Type | Rôle |
 |---|---|---|
-| `nuxt` | dep | Framework principal — inclut Vue 3, Vite, Vue Router, Nitro, ofetch, unhead |
+| `nuxt` | dep | Framework principal **v4** — inclut Vue 3, Vite, Vue Router, Nitro, ofetch, unhead |
 | `vue` | inclus dans Nuxt | Framework UI réactif (Composition API, `<script setup>`) |
-| `vue-router` | inclus dans Nuxt | Routing file-based (`pages/`) |
+| `vue-router` | inclus dans Nuxt | Routing file-based (`app/pages/`) |
 | `vite` | inclus dans Nuxt | Build tool (bundler, HMR) |
 | `nitro` | inclus dans Nuxt | Serveur — utilisé en V2 pour les API routes (inactif en V1 SPA) |
 | `ofetch` / `$fetch` | inclus dans Nuxt | HTTP client natif (remplace Axios) |
 | `typescript` | inclus dans Nuxt | Typage statique |
 | `@nuxt/devtools` | devDep (optionnel) | Dev tools Nuxt dans le navigateur |
 
+**Structure Nuxt 4 (`app/` directory) :**
+- `app/pages/` — Routes (file-based routing)
+- `app/components/` — Composants Vue
+- `app/composables/` — Composables
+- `app/layouts/` — Layouts
+- `app/middleware/` — Middlewares de navigation
+- `app/app.vue` — Point d'entrée de l'application
+- `server/` — Reste à la racine (API routes Nitro)
+- `public/`, `assets/` — Restent à la racine (inchangés)
+
 **Documentation :**
-- Nuxt 3 : <https://nuxt.com/docs>
+- Nuxt 4 : <https://nuxt.com/docs>
 - Vue 3 : <https://vuejs.org/guide>
 - Vue Router : <https://router.vuejs.org>
 - Vite : <https://vitejs.dev/guide>
