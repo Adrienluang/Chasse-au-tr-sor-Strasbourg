@@ -1,0 +1,43 @@
+# tsconfig.json
+
+Nuxt [automatically generates](https://nuxt.com/docs/3.x/guide/concepts/typescript) a `.nuxt/tsconfig.json` file with the resolved aliases you are using in your Nuxt project, as well as with other sensible defaults.
+
+Your Nuxt project should include the following `tsconfig.json` file at the root of the project:
+
+```json [tsconfig.json]
+{
+  "extends": "./.nuxt/tsconfig.json"
+}
+```
+
+::note
+As you need to, you can customize the contents of this file. However, it is recommended that you don't overwrite `target`, `module` and `moduleResolution`.
+::
+
+::note
+If you need to customize your `paths`, this will override the auto-generated path aliases. Instead, we recommend that you add any path aliases you need to the [`alias`](https://nuxt.com/docs/3.x/api/nuxt-config#alias) property within your `nuxt.config`, where they will get picked up and added to the auto-generated `tsconfig`.
+::
+
+## Extending TypeScript Configuration
+
+You can customize the TypeScript configuration of your Nuxt project for each context (`app` and `server`) in the `nuxt.config.ts` file.
+
+```ts [nuxt.config.ts] twoslash
+// @errors: 2353
+export default defineNuxtConfig({
+  typescript: {
+    // customize tsconfig.app.json
+    tsConfig: {
+      // ...
+    },
+  },
+  nitro: {
+    typescript: {
+      // customize tsconfig.server.json
+      tsConfig: {
+        // ...
+      },
+    },
+  },
+})
+```

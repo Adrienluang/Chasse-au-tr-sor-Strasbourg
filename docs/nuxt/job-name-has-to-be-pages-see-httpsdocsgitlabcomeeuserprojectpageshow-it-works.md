@@ -1,0 +1,35 @@
+# Job name has to be `pages`. See https://docs.gitlab.com/ee/user/project/pages/#how-it-works
+pages:
+   image: node
+   before_script:
+      - npm ci --cache .npm --prefer-offline
+   script:
+      # Specify the steps involved to build your app here
+      - npm run generate
+   cache: # https://docs.gitlab.com/ee/ci/caching/#cache-nodejs-dependencies
+      key:
+         files:
+         - package-lock.json
+      paths:
+         - .npm/
+   artifacts:
+      paths:
+         # The directory that contains the built files to be published
+         - .output/public
+   # The directory that contains the built files to be published
+   publish: .output/public
+   rules:
+      # This ensures that only pushes to the default branch 
+      # will trigger a pages deploy
+      - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+```
+
+## Learn more
+
+::read-more
+---
+target: _blank
+to: https://docs.gitlab.com/ee/user/project/pages/getting_started_part_one.html#project-website-examples
+---
+Head over **GitLab Pages default domain names and URLs** to learn more about the GitLab Pages default domain names.
+::

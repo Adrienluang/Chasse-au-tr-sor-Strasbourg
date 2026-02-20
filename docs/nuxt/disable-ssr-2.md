@@ -1,0 +1,2 @@
+# Disable SSR
+ssr=false

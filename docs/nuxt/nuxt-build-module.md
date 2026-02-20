@@ -1,0 +1,33 @@
+# nuxt build-module
+
+```bash [Terminal]
+npx nuxt build-module [ROOTDIR] [--cwd=<directory>] [--logLevel=<silent|info|verbose>] [--build] [--stub] [--sourcemap] [--prepare]
+```
+
+The `build-module` command runs `@nuxt/module-builder` to generate `dist` directory within your `rootDir` that contains the full build for your **nuxt-module**.
+
+## Arguments
+
+| Argument      | Description                                    |
+| ------------- | ---------------------------------------------- |
+| `ROOTDIR="."` | Specifies the working directory (default: `.`) |
+
+## Options
+
+| Option                             | Default | Description                                                                      |
+| ---------------------------------- | ------- | -------------------------------------------------------------------------------- |
+| `--cwd=<directory>`                |         | Specify the working directory, this takes precedence over ROOTDIR (default: `.`) |
+| `--logLevel=<silent|info|verbose>` |         | Specify build-time log level                                                     |
+| `--build`                          | `false` | Build module for distribution                                                    |
+| `--stub`                           | `false` | Stub dist instead of actually building it for development                        |
+| `--sourcemap`                      | `false` | Generate sourcemaps                                                              |
+| `--prepare`                        | `false` | Prepare module for local development                                             |
+
+::read-more
+---
+icon: i-simple-icons-github
+target: \_blank
+to: https://github.com/nuxt/module-builder
+---
+Read more about `@nuxt/module-builder`.
+::

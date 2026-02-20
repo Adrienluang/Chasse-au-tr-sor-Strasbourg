@@ -61,3 +61,9 @@ Le scénario complet est documenté dans `docs/01_parcour_cree_par_adrien.md` :
 - Barre de progression du parcours
 - Narration audio des textes
 - Consentement RGPD pour le stockage local
+
+À Lire systematiquement : 
+
+@LLMInstruction.md
+
+@README.md

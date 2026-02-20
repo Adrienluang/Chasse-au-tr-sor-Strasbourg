@@ -1,0 +1,5 @@
+# Runtime config values are automatically replaced by matching environment variables at runtime
+NUXT_API_SECRET=api_secret_token
+NUXT_PUBLIC_API_BASE=https://nuxtjs.org
+```
+::

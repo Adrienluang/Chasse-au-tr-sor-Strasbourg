@@ -1,0 +1,88 @@
+{
+  "version": "0.1.0",
+  "meta": {
+    "name": "PersonalSite"
+  },
+
+  "units": {
+    "spaceBasePx": 8,
+    "radiusBasePx": 4
+  },
+  "palette": {
+    "primary": { "base": "#2563eb", "ramp": { "method": "oklch" } },
+    "neutral": { "base": "#64748b", "ramp": { "method": "oklch"} },
+    "success": { "base": "#16a34a", "ramp": { "method": "oklch"} },
+    "warning": { "base": "#f59e0b", "ramp": { "method": "oklch"} },
+    "danger":  { "base": "#dc2626", "ramp": { "method": "oklch"} }
+  },
+
+  "typography": {
+    "fonts": {
+      "sans": { "stack": "Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif", "source": { "type": "google", "family": "Inter", "weights": [400,500,600,700] } },
+      "mono": { "stack": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" }
+    },
+    "scale": {
+      "basePx": 16,
+      "ratio": 1.2,
+      "steps": {
+        "xs": -2,
+        "sm": -1,
+        "md": 0,
+        "lg": 1,
+        "xl": 2,
+        "2xl": 3,
+        "3xl": 4,
+        "4xl": 5
+      },
+      "lineHeight": {
+        "body": 1.6,
+        "heading": 1.2
+      }
+    }
+  },
+
+  "scales": {
+    "space": { "steps": [1,2,3,4,6,8,12,16] },
+    "radius": { "valuesPx": { "none": 0, "sm": 4, "md": 8, "lg": 16, "full": 9999 } },
+    "shadow": {
+      "values": {
+        "1": "0 1px 2px rgba(0,0,0,.08)",
+        "2": "0 4px 12px rgba(0,0,0,.12)",
+        "3": "0 12px 32px rgba(0,0,0,.18)"
+      }
+    },
+    "zIndex": { "values": { "base": 0, "dropdown": 1000, "modal": 1100, "toast": 1200 } },
+    "motion": {
+      "durationMs": { "fast": 120, "normal": 200, "slow": 320 },
+      "easing": { "standard": "cubic-bezier(.2,.0,.0,1)", "enter": "cubic-bezier(.2,0,0,1)", "exit": "cubic-bezier(.4,0,1,1)" }
+    }
+  },
+  "semantic": {
+    "color": {
+      "bg": "neutral.50",
+      "surface": "#ffffff",
+      "text": "neutral.900",
+      "textMuted": "neutral.600",
+      "border": "neutral.200",
+      "accent": "primary.600",
+      "accentHover": "primary.700",
+      "onAccent": "#ffffff",
+      "danger": "danger.600",
+      "onDanger": "#ffffff"
+    }
+  },
+
+  "themes": {
+    "dark": {
+      "semantic": {
+        "color": {
+          "bg": "neutral.900",
+          "surface": "neutral.900",
+          "text": "neutral.50",
+          "textMuted": "neutral.300",
+          "border": "neutral.700"
+        }
+      }
+    }
+  }
+}
