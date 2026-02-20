@@ -4,3 +4,4 @@
 * [Vue router](./vuerouter/index.md)
 * [Leaflet](./leafletjs/index.md)
 * [Sass](./sass/index.md)
+* [i18n Nuxt](./i18n-nuxt.md/index.md)

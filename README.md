@@ -113,3 +113,12 @@ rm docs/sass.md && \
 echo "* [Sass](./sass/index.md)" >> docs/index.md;
 ```
 
+
+### i18n Nuxt
+```shell
+curl https://i18n.nuxtjs.org/llms-full.txt > docs/i18n-nuxt.md && \
+node ./script/md_split.mjs docs/i18n-nuxt.md docs/i18n-nuxt '###' && \
+rm docs/i18n-nuxt.md && \
+echo "* [i18n Nuxt](./i18n-nuxt.md/index.md)" >> docs/index.md;
+```
+
