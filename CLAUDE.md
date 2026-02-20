@@ -4,8 +4,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Commandes de développement
 
+Depuis le dossier `App/` :
+
 ```bash
-npm run dev      # Serveur de développement (Vite)
+npm run dev      # Serveur de développement (Nuxt/Vite)
 npm run build    # Build de production
 npm run preview  # Prévisualiser le build de production
 ```
@@ -14,7 +16,19 @@ Pas de tests configurés pour le moment.
 
 ## Architecture du projet
 
-Application Vue 3 + Vite (PWA/Web app) pour une chasse au trésor immersive dans Strasbourg.
+Application **Nuxt 4** (PWA/SPA) pour une chasse au trésor immersive dans Strasbourg.
+
+### Structure du repo
+
+```
+chasse_tresor/          ← repo git
+├── App/                ← app Nuxt 4 (npx nuxi init ici)
+├── v0/                 ← prototype Vue 3 (référence uniquement)
+├── projet/             ← docs projet (scénario, décisions, écrans...)
+├── docs/               ← docs techniques (Nuxt, Leaflet, etc.)
+├── CLAUDE.md
+└── README.md
+```
 
 ### Concept fonctionnel
 
@@ -25,18 +39,28 @@ Application Vue 3 + Vite (PWA/Web app) pour une chasse au trésor immersive dans
 
 ### Stack technique
 
-- **Vue 3** avec `<script setup>` (Composition API)
+- **Nuxt 4** avec `<script setup>` (Composition API, SPA mode)
 - **Leaflet** pour la carte interactive (OpenStreetMap comme fond de carte)
 - **GraphHopper API** pour le calcul d'itinéraire pédestre (`foot` profile)
-- **Axios** pour les appels API
+- **$fetch** (natif Nuxt/ofetch) pour les appels API
 - **Polyline** pour le décodage d'itinéraires encodés
-- Reconnaissance d'image prévue avec **ORB/SIFT** (OpenCV) — pas encore implémentée
+- **SCSS** (sans Tailwind) — scoping via classe racine du composant
+- **@vite-pwa/nuxt** pour le mode PWA offline
+- **@nuxtjs/i18n** pour FR/EN
 
-### Structure des composants
+### Structure Nuxt 4 (dans `App/`)
 
-- `src/App.vue` — Racine, monte le composant principal plein écran (100vw/100vh)
-- `src/components/Test.vue` — Version avec OpenRouteService (commentée, abandon)
-- `src/components/Test2.vue` — Version active avec GraphHopper, trace le parcours complet des 17 waypoints
+- `app/pages/` — Routes (file-based routing)
+- `app/components/` — Composants Vue
+- `app/composables/` — Composables
+- `app/layouts/` — Layouts
+- `app/app.vue` — Point d'entrée
+- `public/` — Assets statiques
+- `assets/scss/` — Styles globaux
+
+### Prototype de référence (`v0/`)
+
+- `v0/src/components/Test2.vue` — Version active avec GraphHopper, trace le parcours complet des 17 waypoints
 
 ### Parcours (17 waypoints dans l'ordre)
 
@@ -44,19 +68,19 @@ Place Saint-Étienne → Quai des Pêcheurs → Restaurant "Au Canon" → Quai S
 
 ### Clés API
 
-- **GraphHopper** : clé présente en dur dans `Test2.vue` — à externaliser dans `.env` avant mise en production
-- **OpenRouteService** : clé dans `Test.vue` (composant abandonné)
+- **GraphHopper** : à stocker dans `App/.env` → variable `GRAPHHOPPER_API_KEY`
+- Clé de référence dans `v0/src/components/Test2.vue` (prototype)
 
 ### Contenu narratif
 
-Le scénario complet est documenté dans `docs/01_parcour_cree_par_adrien.md` :
+Le scénario complet est documenté dans `projet/01_parcour_cree_par_adrien.md` :
 - Extraits du journal d'Armand K. pour chaque lieu (1871)
 - Récit en 1928 d'Elias Morgenstern
-- Les "fragments" dans l'histoire correspondent à des obus réels enchâssés dans les murs de Strasbourg (guerre franco-prussienne 1870-71 / WWI)
+- Les "fragments" correspondent à des obus enchâssés dans les murs de Strasbourg (guerre franco-prussienne 1870-71 / WWI)
 
 ### Fonctionnalités prévues (non encore implémentées)
 
-- Reconnaissance d'image (OpenCV) pour valider les checkpoints
+- Reconnaissance d'image pour valider les checkpoints
 - Déblocage progressif des étapes
 - Barre de progression du parcours
 - Narration audio des textes

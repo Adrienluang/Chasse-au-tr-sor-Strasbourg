@@ -12,3 +12,4 @@
 | 3 | Offline / carte | **Best effort** | Pas de promesse offline carte (tuiles OSM = trop lourd et aléatoire). Assets + contenu + progression mis en cache suffisent pour V1. | 2026-02 |
 | 4 | Fallback GPS | **Bouton "Je suis ici"** | La précision GPS en centre-ville est unreliable (iPhone Safari, rues étroites, batterie). Le jeu n'est pas un examen : la triche n'est pas un problème en V1. Priorité = ne pas perdre les joueurs sur un bug GPS. | 2026-02 |
 | 5 | Tests V1 | **Chrome mobile, beta testeurs proches** | Tests terrain formels (checklist multi-devices) reportés en V2 si V1 concluante. | 2026-02 |
+| 6 | Dossier app Nuxt | **`App/`** | Cohérent avec README existant ("L'application elle même en nuxt est dans le dossier `./App`"). Le prototype Vue 3 reste dans `v0/` pour référence. | 2026-02 |
