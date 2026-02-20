@@ -15,13 +15,13 @@
 
 ## Phase 0 — Configuration Nuxt 4
 
-* [ ] Installer `sass` (`npm install -D sass`)
-* [ ] Créer `App/assets/scss/global.scss` (reset minimal + variables)
-* [ ] Configurer `nuxt.config.ts` : SPA mode (`ssr: false`), import SCSS global, préparation futurs modules
-* [ ] Remplacer `<NuxtWelcome/>` par `<NuxtPage/>` dans `app.vue`
-* [ ] Créer `app/layouts/default.vue`
-* [ ] Créer `App/.env` avec `GRAPHHOPPER_API_KEY`
-* [ ] Ajouter `.env` dans `.gitignore` (vérifier)
+* [x] Installer `sass` (`npm install -D sass`)
+* [x] Créer `App/assets/scss/global.scss` (reset minimal + variables)
+* [x] Configurer `nuxt.config.ts` : SPA mode (`ssr: false`), import SCSS global, préparation futurs modules
+* [x] Remplacer `<NuxtWelcome/>` par `<NuxtPage/>` dans `app.vue`
+* [x] Créer `app/layouts/default.vue`
+* [x] Créer `App/.env` avec `GRAPHHOPPER_API_KEY`
+* [x] Ajouter `.env` dans `.gitignore` (vérifier)
 
 **Test :** `npm run dev` démarre sans erreur, page vide s'affiche dans le navigateur.
 

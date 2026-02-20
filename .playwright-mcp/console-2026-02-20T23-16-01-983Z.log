@@ -1,0 +1,3 @@
+[   96849ms] [WARNING] Create a Vue component in the `pages/` directory to enable `<NuxtPage>` @ http://localhost:3000/_nuxt/@fs/home/mathieu/dev/chasse_tresor/App/node_modules/nuxt/dist/pages/runtime/page-placeholder.js?v=bbcee1b0:6
+[   96918ms] [WARNING] [Vue warn]: Extraneous non-props attributes (style) were passed to component but could not be automatically inherited because component renders fragment or text or teleport root nodes. 
+  at <VueElement props= {mouse: Object, hasParent: false, matched: undefined} style="z-index: 999999; position: fixed; left: 0px; top: 0px;" > @ http://localhost:3000/_nuxt/@fs/home/mathieu/dev/chasse_tresor/App/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js?v=bbcee1b0:49
