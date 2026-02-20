@@ -41,8 +41,9 @@ A typical SSR application will have the following source file structure:
 The `index.html` will need to reference `entry-client.js` and include a placeholder where the server-rendered markup should be injected:
 
 ```html [index.html]
+
 <div id="app"><!--ssr-outlet--></div>
-<script type="module" src="/src/entry-client.js"></script>
+<script type="module" src="/v0/src/entry-client.js"></script>
 ```
 
 You can use any placeholder you prefer instead of `<!--ssr-outlet-->`, as long as it can be precisely replaced.

@@ -202,14 +202,14 @@ Assets referenced by HTML elements such as `<script type="module" src>` and `<li
 ```html {4-5,8-9}
 <!doctype html>
 <html>
-  <head>
-    <link rel="icon" href="/favicon.ico" />
-    <link rel="stylesheet" href="/src/styles.css" />
-  </head>
-  <body>
-    <img src="/src/images/logo.svg" alt="logo" />
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<head>
+    <link rel="icon" href="/favicon.ico"/>
+    <link rel="stylesheet" href="/v0/src/styles.css"/>
+</head>
+<body>
+<img src="/v0/src/images/logo.svg" alt="logo"/>
+<script type="module" src="/v0/src/main.js"></script>
+</body>
 </html>
 ```
 
