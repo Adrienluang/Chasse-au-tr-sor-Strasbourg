@@ -102,7 +102,7 @@ Leaflet est utilisé directement dans un composable avec `onMounted` — pas de 
 |---|---|---|
 | `posthog-js` | dep | Product analytics : events `checkpoint_validated`, `parcours_started`, `parcours_completed` |
 
-**Service externe :** PostHog (cloud ou self-hosted) — clé publique en `NUXT_PUBLIC_POSTHOG_KEY`
+**Service externe :** PostHog **self-hosted** (déployé sur le serveur Dokploy, même infra que l'app) — clé publique en `NUXT_PUBLIC_POSTHOG_KEY`
 
 **Documentation :**
 - PostHog JS SDK : <https://posthog.com/docs/libraries/js>

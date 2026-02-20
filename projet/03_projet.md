@@ -154,7 +154,7 @@ En V1, le contenu (textes narratifs, coordonnées GPS, types de marqueurs) est s
 ### Détail des choix
 
 **PostHog vs Matomo**
-Matomo est un outil d'analytics web classique (pages vues, sessions, rebond) — adapté pour une landing page ou un site vitrine. PostHog est un outil de product analytics orienté événements et funnels (checkpoint validé, parcours terminé, étape d'abandon) — exactement ce dont on a besoin pour comprendre l'expérience de jeu. Free tier : 1 million d'événements/mois. Disponible en cloud (plus simple) ou self-hosted (données 100% chez soi, à décider).
+Matomo est un outil d'analytics web classique (pages vues, sessions, rebond) — adapté pour une landing page ou un site vitrine. PostHog est un outil de product analytics orienté événements et funnels (checkpoint validé, parcours terminé, étape d'abandon) — exactement ce dont on a besoin pour comprendre l'expérience de jeu. PostHog sera déployé en **self-hosted sur le serveur Dokploy** (même infra que l'app) — pas de coût SaaS, données 100% chez nous.
 
 **Drizzle ORM vs Prisma**
 Les deux fonctionnent avec Nuxt/Nitro. Drizzle est plus léger, SQL-first, et Edge-compatible (important pour une éventuelle migration vers Cloudflare Workers). Prisma est plus opinioné et génère son propre client. Pour un projet géré par un développeur seul, Drizzle offre moins de magie et plus de contrôle.
@@ -327,7 +327,7 @@ Ces questions doivent être résolues avant de commencer le développement.
 
 **Technique et infrastructure**
 - Quel nom de domaine ? (`chasse-tresor-strasbourg.fr`, `mysteres-strasbourg.com`, sous-domaine d'un domaine existant ?)
-- PostHog : cloud (plus simple, données chez PostHog) ou self-hosted sur le serveur Dokploy (données 100% chez nous, légèrement plus de maintenance) ?
+- PostHog : déployé en self-hosted sur Dokploy — ✅ décidé
 
 ---
 
