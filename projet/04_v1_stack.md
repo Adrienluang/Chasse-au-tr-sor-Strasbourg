@@ -188,7 +188,7 @@ Leaflet est utilisé directement dans un composable avec `onMounted` — pas de 
 * [x] **Nuxt** — `https://nuxt.com/llms-full.txt` — déjà dans `docs/nuxt/`
 * [x] **Vite** — `https://vite.dev/llms-full.txt`
 * [x] **Vue 3** — chercher sur context7
-* [ ] **Vue Router** — chercher sur context7
+* [x] **Vue Router** — chercher sur context7
 * [ ] **sass (dart-sass)** — chercher sur context7
 * [ ] **Leaflet** — chercher sur context7
 * [ ] **@vite-pwa/nuxt** — chercher sur context7
