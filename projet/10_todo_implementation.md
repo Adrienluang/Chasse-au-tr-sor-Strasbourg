@@ -31,14 +31,14 @@
 
 ## Phase 1 — Données & composables fondamentaux
 
-* [ ] Créer le type `Waypoint` (`id`, `name`, `coords: [lat, lng]`, `description`, `imageHint`)
-* [ ] Créer `app/data/parcours.ts` — les 17 waypoints avec coordonnées `[lat, lng]`
-* [ ] Créer `app/composables/useProgression.ts` — CRUD localStorage (UUID joueur, checkpoints validés, locale, flag onboarding)
-* [ ] Créer `app/composables/useGeolocation.ts` — `watchPosition` + calcul distance Haversine + debounce
-* [ ] Créer fonction utilitaire de conversion `toGraphHopperCoords(latLng): [lng, lat]`
-* [ ] Écrire tests Vitest pour `useProgression` (mock localStorage)
-* [ ] Écrire test Vitest pour le calcul Haversine (distances connues)
-* [ ] Écrire test Vitest pour `toGraphHopperCoords` (vérifier inversion)
+* [x] Créer le type `Waypoint` (`id`, `name`, `coords: [lat, lng]`, `description`, `imageHint`) → `app/types/waypoint.ts`
+* [x] Créer `app/data/parcours.ts` — les 17 waypoints avec coordonnées `[lat, lng]`
+* [x] Créer `app/composables/useProgression.ts` — CRUD localStorage (UUID joueur, checkpoints validés, locale, flag onboarding)
+* [x] Créer `app/composables/useGeolocation.ts` — `watchPosition` + calcul distance Haversine + debounce
+* [x] Créer fonction utilitaire de conversion `toGraphHopperCoords(latLng): [lng, lat]` → `app/utils/coords.ts` (+ `haversineDistance`)
+* [x] Écrire tests Vitest pour `useProgression` (mock localStorage) → `tests/useProgression.test.ts`
+* [x] Écrire test Vitest pour le calcul Haversine (distances connues) → `tests/coords.test.ts`
+* [x] Écrire test Vitest pour `toGraphHopperCoords` (vérifier inversion) → `tests/coords.test.ts`
 
 **Critère de succès :** Composables importables sans erreur, tests passent.
 
