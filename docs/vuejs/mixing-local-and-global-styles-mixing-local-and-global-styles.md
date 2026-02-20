@@ -1,0 +1,13 @@
+### Mixing Local and Global Styles {#mixing-local-and-global-styles}
+
+You can also include both scoped and non-scoped styles in the same component:
+
+```vue
+<style>
+/* global styles */
+</style>
+
+<style scoped>
+/* local styles */
+</style>
+```

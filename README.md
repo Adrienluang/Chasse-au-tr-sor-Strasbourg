@@ -87,3 +87,11 @@ node ./script/md_split.mjs docs/vuejs.md docs/vuejs '###' && \
 rm docs/vuejs.md && \
 echo "* [vuejs](./vuejs/index.md)" >> docs/index.md;
 ```
+
+### Vuerouter
+```shell
+curlhttps://router.vuejs.org/llms-full.txt > docs/vuerouter.md && \
+node ./script/md_split.mjs docs/vuerouter.md docs/vuerouter '###' && \
+rm docs/vuerouter.md && \
+echo "* [Vue router](./vuerouter/index.md)" >> docs/index.md;
+```

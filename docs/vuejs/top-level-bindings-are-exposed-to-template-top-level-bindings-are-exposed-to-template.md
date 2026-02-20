@@ -1,0 +1,63 @@
+### Top-level bindings are exposed to template {#top-level-bindings-are-exposed-to-template}
+
+When using `<script setup>`, any top-level bindings (including variables, function declarations, and imports) declared inside `<script setup>` are directly usable in the template:
+
+```vue
+<script setup>
+// variable
+const msg = 'Hello!'
+
+// functions
+function log() {
+  console.log(msg)
+}
+</script>
+
+<template>
+  <button @click="log">{{ msg }}</button>
+</template>
+```
+
+Imports are exposed in the same fashion. This means you can directly use an imported helper function in template expressions without having to expose it via the `methods` option:
+
+```vue
+<script setup>
+import { capitalize } from './helpers'
+</script>
+
+<template>
+  <div>{{ capitalize('hello') }}</div>
+</template>
+```
+
+## Reactivity {#reactivity}
+
+Reactive state needs to be explicitly created using [Reactivity APIs](./reactivity-core). Similar to values returned from a `setup()` function, refs are automatically unwrapped when referenced in templates:
+
+```vue
+<script setup>
+import { ref } from 'vue'
+
+const count = ref(0)
+</script>
+
+<template>
+  <button @click="count++">{{ count }}</button>
+</template>
+```
+
+## Using Components {#using-components}
+
+Values in the scope of `<script setup>` can also be used directly as custom component tag names:
+
+```vue
+<script setup>
+import MyComponent from './MyComponent.vue'
+</script>
+
+<template>
+  <MyComponent />
+</template>
+```
+
+Think of `MyComponent` as being referenced as a variable. If you have used JSX, the mental model is similar here. The kebab-case equivalent `<my-component>` also works in the template - however PascalCase component tags are strongly recommended for consistency. It also helps differentiating from native custom elements.

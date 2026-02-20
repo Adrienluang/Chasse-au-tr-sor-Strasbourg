@@ -1,0 +1,23 @@
+### Deep Selectors {#deep-selectors}
+
+If you want a selector in `scoped` styles to be "deep", i.e. affecting child components, you can use the `:deep()` pseudo-class:
+
+```vue
+<style scoped>
+.a :deep(.b) {
+  /* ... */
+}
+</style>
+```
+
+The above will be compiled into:
+
+```css
+.a[data-v-f3f3eg9] .b {
+  /* ... */
+}
+```
+
+:::tip
+DOM content created with `v-html` are not affected by scoped styles, but you can still style them using deep selectors.
+:::

@@ -1,0 +1,6 @@
+### Documentation {#documentation}
+
+- [WCAG 2.0](https://www.w3.org/TR/WCAG20/)
+- [WCAG 2.1](https://www.w3.org/TR/WCAG21/)
+- [Accessible Rich Internet Applications (WAI-ARIA) 1.2](https://www.w3.org/TR/wai-aria-1.2/)
+- [WAI-ARIA Authoring Practices 1.2](https://www.w3.org/TR/wai-aria-practices-1.2/)
