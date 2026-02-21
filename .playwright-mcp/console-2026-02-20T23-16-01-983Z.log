@@ -4,3 +4,24 @@
 [ 1060622ms] [WARNING] Create a Vue component in the `pages/` directory to enable `<NuxtPage>` @ http://localhost:3000/_nuxt/@fs/home/mathieu/dev/chasse_tresor/App/node_modules/nuxt/dist/pages/runtime/page-placeholder.js?v=de5b1131:6
 [ 1060666ms] [WARNING] [Vue warn]: Extraneous non-props attributes (style) were passed to component but could not be automatically inherited because component renders fragment or text or teleport root nodes. 
   at <VueElement props= {mouse: Object, hasParent: false, matched: undefined} style="z-index: 999999; position: fixed; left: 0px; top: 0px;" > @ http://localhost:3000/_nuxt/@fs/home/mathieu/dev/chasse_tresor/App/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js?v=de5b1131:49
+[ 4660633ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_nuxt/builds/latest.json?1771634022611:0
+[ 4660636ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_nuxt/builds/latest.json?1771634022611:0
+[ 4922983ms] [WARNING] [Vue Router warn]: No match found for location with path "/" @ http://localhost:3000/_nuxt/@fs/home/mathieu/dev/chasse_tresor/App/node_modules/vue-router/dist/devtools-EWN81iOl.mjs?v=363b4f36:34
+[ 4922988ms] [WARNING] [Vue Router warn]: No match found for location with path "/" @ http://localhost:3000/_nuxt/@fs/home/mathieu/dev/chasse_tresor/App/node_modules/vue-router/dist/devtools-EWN81iOl.mjs?v=363b4f36:34
+[ 4922992ms] [ERROR] [nuxt] error caught during app initialization H3Error: Page not found: /
+    at createError (http://localhost:3000/_nuxt/@fs/home/mathieu/dev/chasse_tresor/App/node_modules/h3/dist/index.mjs?v=363b4f36:71:15)
+    at createError (http://localhost:3000/_nuxt/@fs/home/mathieu/dev/chasse_tresor/App/node_modules/nuxt/dist/app/composables/error.js?v=363b4f36:35:21)
+    at http://localhost:3000/_nuxt/@fs/home/mathieu/dev/chasse_tresor/App/node_modules/nuxt/dist/pages/runtime/plugins/router.js?v=363b4f36:207:55
+    at fn (http://localhost:3000/_nuxt/@fs/home/mathieu/dev/chasse_tresor/App/node_modules/nuxt/dist/app/nuxt.js?v=363b4f36:220:44)
+    at Object.runWithContext (http://localhost:3000/_nuxt/@fs/home/mathieu/dev/chasse_tresor/App/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js?v=363b4f36:4278:18)
+    at callWithNuxt (http://localhost:3000/_nuxt/@fs/home/mathieu/dev/chasse_tresor/App/node_modules/nuxt/dist/app/nuxt.js?v=363b4f36:226:24)
+    at http://localhost:3000/_nuxt/@fs/home/mathieu/dev/chasse_tresor/App/node_modules/nuxt/dist/app/nuxt.js?v=363b4f36:37:41
+    at EffectScope.run (http://localhost:3000/_nuxt/@fs/home/mathieu/dev/chasse_tresor/App/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js?v=363b4f36:69:16)
+    at Object.runWithContext (http://localhost:3000/_nuxt/@fs/home/mathieu/dev/chasse_tresor/App/node_modules/nuxt/dist/app/nuxt.js?v=363b4f36:37:31)
+    at http://localhost:3000/_nuxt/@fs/home/mathieu/dev/chasse_tresor/App/node_modules/nuxt/dist/pages/runtime/plugins/router.js?v=363b4f36:207:24 @ http://localhost:3000/_nuxt/@fs/home/mathieu/dev/chasse_tresor/App/node_modules/nuxt/dist/app/nuxt.js?v=363b4f36:122
+[ 4923105ms] [WARNING] [Vue warn]: Extraneous non-props attributes (style) were passed to component but could not be automatically inherited because component renders fragment or text or teleport root nodes. 
+  at <VueElement props= {mouse: Object, hasParent: false, matched: undefined} style="z-index: 999999; position: fixed; left: 0px; top: 0px;" > @ http://localhost:3000/_nuxt/@fs/home/mathieu/dev/chasse_tresor/App/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js?v=363b4f36:49
+[ 4923112ms] [WARNING] [Vue Router warn]: No match found for location with path "/" @ http://localhost:3000/_nuxt/@fs/home/mathieu/dev/chasse_tresor/App/node_modules/vue-router/dist/devtools-EWN81iOl.mjs?v=363b4f36:34
+[ 4923114ms] [WARNING] [Vue Router warn]: No match found for location with path "/" @ http://localhost:3000/_nuxt/@fs/home/mathieu/dev/chasse_tresor/App/node_modules/vue-router/dist/devtools-EWN81iOl.mjs?v=363b4f36:34
+[ 4923214ms] [WARNING] [Vue Router warn]: No match found for location with path "/" @ http://localhost:3000/_nuxt/@fs/home/mathieu/dev/chasse_tresor/App/node_modules/vue-router/dist/devtools-EWN81iOl.mjs?v=363b4f36:34
+[ 4923215ms] [WARNING] [Vue Router warn]: No match found for location with path "/" @ http://localhost:3000/_nuxt/@fs/home/mathieu/dev/chasse_tresor/App/node_modules/vue-router/dist/devtools-EWN81iOl.mjs?v=363b4f36:34

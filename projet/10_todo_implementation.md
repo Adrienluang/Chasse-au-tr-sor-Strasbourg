@@ -46,17 +46,17 @@
 
 ## Phase 2 — Carte interactive (S07)
 
-* [ ] Installer `leaflet` + `@types/leaflet` (`npm install leaflet @types/leaflet`)
-* [ ] Créer `app/components/LeafletMap.vue` — initialisation carte, tuiles OSM, centrage Strasbourg
-* [ ] Intégrer appel GraphHopper — tracé itinéraire pédestre avec les 17 waypoints (conversion `[lng, lat]` explicite)
-* [ ] Décoder polyline GraphHopper et afficher tracé bleu sur la carte
-* [ ] Créer `app/components/CheckpointMarker.vue` — marqueur avec statut (verrouillé / actif / validé)
-* [ ] Créer `app/components/ProgressBar.vue` — barre X/17
-* [ ] Créer `app/components/DiscoverButton.vue` — visible si distance < 80m du checkpoint actif
-* [ ] Créer `app/components/GpsStatus.vue` — indicateur état GPS (actif / inactif / erreur)
-* [ ] Créer `app/pages/map.vue` — assemblage de tous les composants carte
-* [ ] Test E2E Playwright : page `/map` charge, carte visible, marqueurs présents
-* [ ] Test unitaire : conversion coordonnées `[lat, lng]` → `[lng, lat]` pour GraphHopper
+* [x] Installer `leaflet` + `@types/leaflet` (`npm install leaflet @types/leaflet`)
+* [x] Créer `app/components/LeafletMap.vue` — initialisation carte, tuiles OSM, centrage Strasbourg
+* [x] Intégrer appel GraphHopper — tracé itinéraire pédestre avec les 17 waypoints (composable `useItinerary`)
+* [x] Décoder polyline GraphHopper et afficher tracé bleu sur la carte
+* [x] Créer marqueurs checkpoint dans `LeafletMap.vue` — `L.circleMarker` avec statut (verrouillé / actif / validé)
+* [x] Créer `app/components/ProgressBar.vue` — barre X/17
+* [x] Créer `app/components/DiscoverButton.vue` — visible si distance < 80m du checkpoint actif
+* [x] Créer `app/components/GpsStatus.vue` — indicateur état GPS (actif / inactif / erreur)
+* [x] Créer `app/pages/map.vue` — assemblage de tous les composants carte
+* [x] Test E2E Playwright : page `/map` charge, carte visible, marqueurs présents
+* [x] Test unitaire : conversion coordonnées `[lat, lng]` → `[lng, lat]` pour GraphHopper (déjà fait Phase 1)
 
 **Critère de succès :** Carte visible avec tracé bleu et 17 marqueurs positionnés correctement.
 
