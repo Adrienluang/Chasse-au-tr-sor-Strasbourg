@@ -64,14 +64,14 @@
 
 ## Phase 3 — Onboarding & RGPD (S01, S02-S04, S06)
 
-* [ ] Créer `app/pages/index.vue` — logique de redirection (si onboarding fait → carte, sinon → onboarding)
-* [ ] Créer `app/pages/onboarding.vue` — écrans d'introduction narratifs
-* [ ] Créer `app/components/OnboardingStep.vue` — composant step réutilisable
-* [ ] Créer `app/components/LanguageSelector.vue` — choix FR/EN
-* [ ] Créer `app/pages/rgpd.vue` — consentement + initialisation localStorage
-* [ ] Créer `app/middleware/auth.ts` — protection des routes (onboarding + RGPD requis)
-* [ ] Test E2E Playwright : premier lancement → onboarding → RGPD → redirection carte
-* [ ] Test E2E Playwright : utilisateur existant → redirection directe carte
+* [x] Créer `app/pages/index.vue` — logique de redirection (si onboarding fait → carte, sinon → onboarding)
+* [x] Créer `app/pages/onboarding.vue` — écrans d'introduction narratifs
+* [x] Créer `app/components/OnboardingStep.vue` — composant step réutilisable
+* [x] Créer `app/components/LanguageSelector.vue` — choix FR/EN
+* [x] Créer `app/pages/rgpd.vue` — consentement + initialisation localStorage
+* [x] Créer `app/middleware/auth.ts` — protection des routes (onboarding + RGPD requis)
+* [x] Test E2E Playwright : premier lancement → onboarding → RGPD → redirection carte
+* [x] Test E2E Playwright : utilisateur existant → redirection directe carte
 
 **Critère de succès :** Flux complet premier utilisateur fonctionne de bout en bout.
 
