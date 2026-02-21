@@ -79,14 +79,17 @@
 
 ## Phase 4 — Contenu narratif & progression (S08, S09)
 
-* [ ] Créer `app/composables/useCheckpointContent.ts` — contenu narratif FR/EN par checkpoint (journal d'Armand K.)
-* [ ] Créer `app/pages/checkpoint/[id].vue` — page de découverte d'un checkpoint
-* [ ] Créer `app/components/NarrativeCard.vue` — carte avec extrait du journal
-* [ ] Créer `app/components/NarratorBadge.vue` — badge narrateur (Armand K. / Elias Morgenstern)
-* [ ] Créer `app/pages/fin.vue` — écran de fin de parcours
-* [ ] Créer `app/middleware/checkpoint-guard.ts` — vérifie que le checkpoint est débloqué
-* [ ] Créer `app/middleware/parcours-actif.ts` — vérifie qu'un parcours est en cours
-* [ ] Créer `app/components/ResetConfirmModal.vue` — modale de confirmation reset progression
+* [x] Créer `app/composables/useCheckpointContent.ts` — contenu narratif FR/EN par checkpoint (journal d'Armand K.)
+* [x] Créer `app/pages/checkpoint/[id].vue` — page de découverte d'un checkpoint
+* [x] Créer `app/components/NarrativeCard.vue` — carte avec extrait du journal
+* [x] Créer `app/components/NarratorBadge.vue` — badge narrateur (Armand K. / Elias Morgenstern)
+* [x] Créer `app/pages/fin.vue` — écran de fin de parcours
+* [x] Créer `app/middleware/checkpoint-guard.ts` — vérifie que le checkpoint est débloqué
+* [x] Créer `app/middleware/parcours-actif.ts` — vérifie qu'un parcours est en cours
+* [x] Créer `app/components/ResetConfirmModal.vue` — modale de confirmation reset progression
+* [x] Modifier `app/pages/map.vue` — navigation checkpoint + détection fin + bouton recommencer
+* [x] Modifier `app/pages/index.vue` — redirection vers `/fin` si parcours terminé
+* [x] Modifier `app/middleware/auth.ts` — ajout `/fin` aux routes protégées
 * [ ] Test E2E Playwright : simuler progression complète (mock localStorage) → vérifier navigation
 * [ ] Test E2E Playwright : accès direct à un checkpoint verrouillé → redirection
 
