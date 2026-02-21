@@ -65,9 +65,13 @@ Each discovery brings me closer to something — but what? These objects seem to
       narrator: 'armand',
       text: `C'est ici, au Restaurant "Au Canon", que Hans-Erik Mülheim, autrefois l'un des hommes les plus puissants de Strasbourg, aurait acquis l'artefact qui a marqué sa chute.
 
-Hans-Erik, connu pour son influence et ses affaires prospères, résidait dans la prestigieuse Maison Kammerzell. Les récits liés à ce lieu évoquent une soirée en 1790 où il aurait conclu une affaire inhabituelle ici. Il était décrit comme nerveux, presque terrifié. Les témoins se rappellent qu'il quitta les lieux en hâte, emportant un objet mystérieux qu'il dissimulait sous son manteau.
+Hans-Erik, connu pour son influence et ses affaires prospères, résidait dans la prestigieuse Maison Kammerzell, un symbole de richesse et de pouvoir, mais aussi, murmure-t-on, le théâtre de transactions plus sombres.
 
-Peu après cette nuit, il fut arrêté et conduit au Pont du Corbeau, où il fut pendu. Lorsque son corps fut récupéré, l'objet avait disparu. Certains disent qu'il l'avait caché dans sa maison, d'autres pensent qu'il l'avait confié à un complice.`,
+Les récits liés à ce lieu évoquent une soirée en 1790 où Hans-Erik aurait conclu une affaire inhabituelle ici, au "Canon". Il était décrit comme nerveux, presque terrifié, bien loin de l'image imposante qu'il projetait habituellement. Les témoins se rappellent qu'il quitta les lieux en hâte, emportant un objet mystérieux qu'il dissimulait sous son manteau.
+
+Peu après cette nuit, il fut arrêté pour des raisons qui restent floues et conduit au Pont du Corbeau, où il fut pendu selon la tradition brutale de l'époque. Lorsque son corps fut récupéré, l'objet qu'il avait transporté avait disparu. Certains disent qu'il l'avait caché dans sa maison avant son arrestation, d'autres pensent qu'il l'avait confié à un complice.
+
+Le mystère qui entoure Hans-Erik et sa fin brutale semble lié aux fragments que je poursuis. Était-il une victime des Veilleurs de l'Aube, ou cherchait-il lui-même à contrôler ces artefacts ? La Maison Kammerzell reste muette, ses murs retenant peut-être les réponses que je cherche. Mais une chose est certaine : cet homme, si puissant dans la lumière, était consumé par une peur qui résonne encore dans l'ombre.`,
     },
     en: {
       id: 3,
@@ -76,9 +80,13 @@ Peu après cette nuit, il fut arrêté et conduit au Pont du Corbeau, où il fut
       narrator: 'armand',
       text: `It is here, at the Restaurant "Au Canon", that Hans-Erik Mülheim, once one of the most powerful men in Strasbourg, allegedly acquired the artifact that marked his downfall.
 
-Hans-Erik, known for his influence and prosperous affairs, resided in the prestigious Maison Kammerzell. Stories of this place tell of an evening in 1790 when he concluded an unusual deal here. He was described as nervous, almost terrified. Witnesses recalled that he left in haste, carrying a mysterious object hidden beneath his coat.
+Hans-Erik, known for his influence and prosperous affairs, resided in the prestigious Maison Kammerzell, a symbol of wealth and power, but also, it is whispered, the scene of darker transactions.
 
-Shortly after that night, he was arrested and taken to the Pont du Corbeau, where he was hanged. When his body was recovered, the object had vanished. Some say he had hidden it in his home; others believe he entrusted it to an accomplice.`,
+Stories of this place tell of an evening in 1790 when Hans-Erik concluded an unusual deal here, at "Au Canon". He was described as nervous, almost terrified, a far cry from the imposing image he usually projected. Witnesses recalled that he left in haste, carrying a mysterious object hidden beneath his coat.
+
+Shortly after that night, he was arrested for reasons that remain unclear and taken to the Pont du Corbeau, where he was hanged according to the brutal tradition of the time. When his body was recovered, the object he had carried had vanished. Some say he had hidden it in his home before his arrest; others believe he entrusted it to an accomplice.
+
+The mystery surrounding Hans-Erik and his brutal end seems linked to the fragments I am pursuing. Was he a victim of the Watchers of the Dawn, or was he himself seeking to control these artifacts? The Maison Kammerzell remains silent, its walls perhaps holding the answers I seek. But one thing is certain: this man, so powerful in the light, was consumed by a fear that still echoes in the shadows.`,
     },
   },
   4: {
@@ -131,26 +139,30 @@ A local merchant confided that this location was once a nerve center for trade. 
       location: 'Rue des Dentelles',
       date: '15 janvier 1928',
       narrator: 'elias',
-      text: `En entrant dans la Rue des Dentelles, je ressens une étrange lourdeur s'installer en moi. Loin de l'agitation de la ville, cette rue pavée semble m'envelopper, les maisons à colombages se refermant comme une cage autour de mes pensées.
+      text: `En entrant dans la Rue des Dentelles, je ressens une étrange lourdeur s'installer en moi. Loin de l'agitation de la ville, cette rue pavée semble m'envelopper, les maisons à colombages se refermant comme une cage autour de mes pensées. Je m'arrête un instant, troublé par une impression fugace.
 
-Sur une poutre usée, à la base d'une maison, je crois voir un symbole gravé — des lignes délicates formant ce qui ressemble à une étoile ou peut-être une fleur stylisée. Intrigué, je m'approche pour mieux observer, mais une ombre traverse mon champ de vision, rapide et furtive.
+Sur une poutre usée, à la base d'une maison, je crois voir un symbole gravé — des lignes délicates formant ce qui ressemble à une étoile ou peut-être une fleur stylisée. Intrigué, je m'approche pour mieux observer, mais une ombre traverse mon champ de vision, rapide et furtive, accompagnée d'un bruit sourd derrière moi.
 
-Je me retourne instinctivement. Rien. La rue est déserte. Je reporte mon attention sur la poutre… mais le symbole a disparu. Seule reste la surface rugueuse et banale du bois, comme si rien n'avait jamais été là.
+Je me retourne instinctivement, le cœur battant. Rien. La rue est déserte, seulement habitée par le silence et la lueur vacillante d'un réverbère. Je reporte mon attention sur la poutre… mais le symbole a disparu. Seule reste la surface rugueuse et banale du bois, comme si rien n'avait jamais été là.
 
-Des éclats de murmures me parviennent à travers les volets fermés d'une maison voisine. Une femme parle à voix basse, presque en prière, mais ses mots s'éteignent soudainement, laissant un vide assourdissant.`,
+Une sueur froide me parcourt. Ai-je vraiment vu quelque chose ? Est-ce que la fatigue ou l'atmosphère pesante commence à jouer avec mon esprit ? Alors que je reprends ma marche, des éclats de murmures me parviennent à travers les volets fermés d'une maison voisine. Une femme parle à voix basse, presque en prière, mais ses mots s'éteignent soudainement, laissant un vide assourdissant derrière eux.
+
+Je serre mon carnet contre moi, tentant de calmer le tumulte dans ma tête. Était-ce une hallucination ? Une illusion créée par l'obscurité ? Je commence à douter de moi-même. Chaque pas que je fais dans cette rue semble m'éloigner un peu plus de la réalité, comme si elle cherchait à m'entraîner dans ses propres profondeurs insondables.`,
     },
     en: {
       id: 6,
       location: 'Rue des Dentelles',
       date: 'January 15, 1928',
       narrator: 'elias',
-      text: `Entering the Rue des Dentelles, I feel a strange heaviness settling within me. Far from the city's bustle, this cobblestone street seems to envelop me, the half-timbered houses closing in like a cage around my thoughts.
+      text: `Entering the Rue des Dentelles, I feel a strange heaviness settling within me. Far from the city's bustle, this cobblestone street seems to envelop me, the half-timbered houses closing in like a cage around my thoughts. I stop for a moment, troubled by a fleeting impression.
 
-On a worn beam at the base of a house, I think I see an engraved symbol — delicate lines forming what looks like a star or perhaps a stylized flower. Intrigued, I approach for a closer look, but a shadow crosses my field of vision, swift and furtive.
+On a worn beam at the base of a house, I think I see an engraved symbol — delicate lines forming what looks like a star or perhaps a stylized flower. Intrigued, I approach for a closer look, but a shadow crosses my field of vision, swift and furtive, accompanied by a dull thud behind me.
 
-I turn instinctively. Nothing. The street is deserted. I look back at the beam… but the symbol has vanished. Only the rough, ordinary surface of the wood remains, as if nothing had ever been there.
+I turn instinctively, my heart pounding. Nothing. The street is deserted, inhabited only by silence and the flickering glow of a streetlamp. I look back at the beam… but the symbol has vanished. Only the rough, ordinary surface of the wood remains, as if nothing had ever been there.
 
-Fragments of whispers reach me through the closed shutters of a neighboring house. A woman speaks in hushed tones, almost in prayer, but her words suddenly die away, leaving a deafening void.`,
+A cold sweat runs through me. Did I really see something? Is fatigue or the oppressive atmosphere starting to play tricks on my mind? As I resume walking, fragments of whispers reach me through the closed shutters of a neighboring house. A woman speaks in hushed tones, almost in prayer, but her words suddenly die away, leaving a deafening void behind them.
+
+I clutch my notebook to my chest, trying to calm the turmoil in my head. Was it a hallucination? An illusion created by the darkness? I begin to doubt myself. Every step I take in this street seems to carry me further from reality, as if it were trying to draw me into its own unfathomable depths.`,
     },
   },
   7: {
@@ -159,7 +171,7 @@ Fragments of whispers reach me through the closed shutters of a neighboring hous
       location: 'Quai de la Petite France',
       date: '15 janvier 1928',
       narrator: 'elias',
-      text: `Les reflets des lumières sur l'eau du canal m'hypnotisent un instant alors que je longe le Quai de la Petite France. Les maisons penchées, avec leurs poutres apparentes, m'évoquent des carcasses anciennes veillant sur ces eaux qui semblent immuables.
+      text: `Les reflets des lumières sur l'eau du canal m'hypnotisent un instant alors que je longe le Quai de la Petite France. Les maisons penchées, avec leurs poutres apparentes, m'évoquent des carcasses anciennes veillant sur ces eaux qui semblent immuables. Un clapotis irrégulier brise cette harmonie visuelle.
 
 Sur l'autre rive, une silhouette avance lentement, portant un long manteau noir.
 
@@ -170,7 +182,7 @@ Je reste figé, les mains serrées autour de mon carnet. La silhouette s'arrête
       location: 'Quai de la Petite France',
       date: 'January 15, 1928',
       narrator: 'elias',
-      text: `The reflections of lights on the canal water mesmerize me for a moment as I walk along the Quai de la Petite France. The leaning houses, with their exposed beams, remind me of ancient carcasses watching over waters that seem timeless.
+      text: `The reflections of lights on the canal water mesmerize me for a moment as I walk along the Quai de la Petite France. The leaning houses, with their exposed beams, remind me of ancient carcasses watching over waters that seem timeless. An irregular lapping breaks this visual harmony.
 
 On the other bank, a figure moves slowly, wearing a long black coat.
 
@@ -335,22 +347,26 @@ I don't hesitate to buy it, convinced that its pages hold answers.`,
       location: 'Rue des Tanneurs',
       date: '16 janvier 1928',
       narrator: 'elias',
-      text: `Les bâtiments imposants de la Rue des Tanneurs me rappellent la dureté du travail qui devait s'y dérouler autrefois. Sur une porte entrouverte, un symbole gravé attire mon attention. Il semble correspondre à ceux vus sur le pont, bien que légèrement différent.
+      text: `Les bâtiments imposants de la Rue des Tanneurs me rappellent la dureté du travail qui devait s'y dérouler autrefois. Sur une porte entrouverte, un symbole gravé attire mon attention. Il semble correspondre à ceux vus sur le pont, bien que légèrement différent, comme s'il s'agissait d'une autre variation.
 
-À l'intérieur, une odeur de cuir tanné m'enveloppe. Alors que je progresse dans cet atelier abandonné, je découvre une boîte de bois posée sous une table. Elle contient des fragments d'un carnet, griffonnés dans une écriture désordonnée. Certains mots évoquent les "Veilleurs", et un schéma semble montrer un alignement d'étoiles particulières.
+À l'intérieur, une odeur de cuir tanné m'enveloppe, mélange de traditions anciennes et d'un passé lourd.
 
-Ce lien avec les autres indices ne peut être ignoré.`,
+Alors que je progresse dans cet atelier abandonné, je découvre une boîte de bois posée sous une table. Elle contient des fragments d'un carnet, griffonnés dans une écriture désordonnée. Certains mots évoquent les "Veilleurs", et un schéma semble montrer un alignement d'étoiles particulières.
+
+Ce lien avec les autres indices ne peut être ignoré. Je range les papiers et poursuis ma route.`,
     },
     en: {
       id: 14,
       location: 'Rue des Tanneurs',
       date: 'January 16, 1928',
       narrator: 'elias',
-      text: `The imposing buildings of the Rue des Tanneurs remind me of the harsh labor that once took place here. On a half-open door, an engraved symbol catches my attention. It seems to match those seen on the bridge, though slightly different.
+      text: `The imposing buildings of the Rue des Tanneurs remind me of the harsh labor that once took place here. On a half-open door, an engraved symbol catches my attention. It seems to match those seen on the bridge, though slightly different, as if it were another variation.
 
-Inside, the smell of tanned leather envelops me. As I advance through this abandoned workshop, I discover a wooden box placed beneath a table. It contains fragments of a notebook, scrawled in messy handwriting. Some words mention "the Watchers," and a diagram seems to show a particular alignment of stars.
+Inside, the smell of tanned leather envelops me, a blend of ancient traditions and a heavy past.
 
-This connection to the other clues cannot be ignored.`,
+As I advance through this abandoned workshop, I discover a wooden box placed beneath a table. It contains fragments of a notebook, scrawled in messy handwriting. Some words mention "the Watchers," and a diagram seems to show a particular alignment of stars.
+
+This connection to the other clues cannot be ignored. I put the papers away and continue on my way.`,
     },
   },
   15: {
@@ -365,7 +381,13 @@ This connection to the other clues cannot be ignored.`,
 
 Strasbourg elle-même semble cette intersection, où les étoiles et les symboles se croisent.
 
-Tout ce que j'ai vu dans le quartier de la Petite France me hante encore. L'étrange papier ramassé à la Place Benjamin Zix semble indiquer un lieu précis. En le comparant à d'autres fragments de cartes trouvés, un point semble se dégager : la Place du Temple Neuf.`,
+Cependant, tout ce que j'ai vu dans le quartier de la Petite France me hante encore. Ces inscriptions sur les murs, ces murmures à peine audibles… L'étrange papier ramassé à la Place Benjamin Zix semble indiquer un lieu précis. En le comparant à d'autres fragments de cartes trouvés, un point semble se dégager : la Place du Temple Neuf.
+
+Pourquoi ce lieu est-il répété dans ces documents ?
+
+Le soleil de l'après-midi commence à m'aveugler, mais une sensation plus obscure envahit mon esprit. Suis-je sur le point de découvrir une vérité plus grande que moi, ou est-ce simplement mon esprit qui cède sous le poids des coïncidences et des signes ? Je ressens une tension étrange, comme si le monde lui-même me regardait.
+
+Je dois aller au Temple Neuf, mais chaque pas me rapproche d'une folie que je ne peux ignorer.`,
     },
     en: {
       id: 15,
@@ -378,7 +400,13 @@ Tout ce que j'ai vu dans le quartier de la Petite France me hante encore. L'étr
 
 Strasbourg itself seems to be that intersection, where stars and symbols converge.
 
-Everything I've seen in the Petite France quarter still haunts me. The strange paper picked up at Place Benjamin Zix seems to point to a specific location. Comparing it to other map fragments found, one point emerges: the Place du Temple Neuf.`,
+Yet everything I've seen in the Petite France quarter still haunts me. Those inscriptions on the walls, those barely audible whispers… The strange paper picked up at Place Benjamin Zix seems to point to a specific location. Comparing it to other map fragments found, one point emerges: the Place du Temple Neuf.
+
+Why is this place repeated in these documents?
+
+The afternoon sun begins to blind me, but a darker sensation invades my mind. Am I about to discover a truth greater than myself, or is it simply my mind giving way under the weight of coincidences and signs? I feel a strange tension, as if the world itself were watching me.
+
+I must go to the Temple Neuf, but each step brings me closer to a madness I cannot ignore.`,
     },
   },
   16: {
@@ -411,32 +439,48 @@ I do not know why these objects were sealed into the walls, but they are far fro
       location: 'Cathédrale de Strasbourg',
       date: '5 mars 1871',
       narrator: 'armand',
-      text: `La Cathédrale de Strasbourg. Monument imposant, sentinelle intemporelle de la ville. Chaque pierre semble chargée de mémoire, chaque sculpture un gardien silencieux d'un secret oublié.
+      text: `La Cathédrale de Strasbourg. Monument imposant, sentinelle intemporelle de la ville, elle a vu défiler les générations d'hommes et de femmes, témoignant des histoires les plus glorieuses comme des plus sombres. Chaque pierre semble chargée de mémoire, chaque sculpture un gardien silencieux d'un secret oublié.
 
-C'est dans un bâtiment adjacent, juste en face de la Maison Kammerzell, qu'une façade discrète abritait un autre de ces fragments. Incrusté dans le mur, à peine visible à l'œil nu, l'objet semblait attendre d'être retrouvé. Sa surface noire et gravée portait une gravité particulière, comme s'il avait une connexion plus intime avec ce lieu.
+C'est ici, au cœur de cette structure gigantesque, que je suis certain que les réponses à mes questions se trouvent. Mais ce n'est pas directement sur ses murs que j'ai fait ma découverte. Non, c'est dans un bâtiment adjacent, juste en face de la Maison Kammerzell. Une façade discrète, que des siècles d'histoire semblaient vouloir effacer, abritait un autre de ces fragments.
 
-Les récits de Hans-Erik Mülheim me reviennent sans cesse. Son obsession pour ces artefacts, ses transactions au "Canon", et sa fin tragique sur le Pont du Corbeau ne peuvent pas être des coïncidences.
+Incrusté dans le mur, à peine visible à l'œil nu, l'objet semblait attendre d'être retrouvé. Sa surface noire et gravée des symboles déjà rencontrés m'a rappelé les autres fragments, mais celui-ci portait une gravité particulière, comme s'il avait une connexion plus intime avec ce lieu.
+
+Les récits de Hans-Erik Mülheim me reviennent sans cesse. Cet homme, autrefois l'un des plus puissants de Strasbourg, résidait dans la Maison Kammerzell, presque à l'ombre de la Cathédrale. Son obsession pour ces artefacts, ses transactions dans des lieux comme le Restaurant "Au Canon", et sa fin tragique sur le Pont du Corbeau ne peuvent pas être des coïncidences. Était-il un simple marchand pris au piège d'un mystère trop grand, ou jouait-il un rôle plus actif dans cette histoire ?
 
 Une phrase gravée sur une plaque près de l'entrée m'a troublé :
 "Là où les ombres de la pierre rencontrent la lumière des étoiles, le passage s'ouvre."
 
-Je suis convaincu que la Cathédrale, plus que n'importe quel autre lieu, détient les clés de ce mystère.`,
+Ces mots mènent inévitablement à la Cathédrale. Était-elle un sanctuaire pour les Veilleurs de l'Aube ? Ou le théâtre de quelque chose de plus grand, de plus terrifiant ?
+
+Je suis convaincu que la Cathédrale, plus que n'importe quel autre lieu, détient les clés de ce mystère. Elle n'est pas seulement un monument : elle est le cœur vivant de Strasbourg, l'endroit où se croisent toutes les lignes de ce culte énigmatique.
+
+Je vais poursuivre mes recherches ici. Si ce carnet est trouvé, sachez ceci : la Cathédrale est un livre de pierre, et chaque gargouille, chaque colonne, chaque détail raconte une part de ce que nous avons choisi d'ignorer. Et la Maison Kammerzell, située à son seuil, n'est pas qu'une demeure prestigieuse. Elle est un écho du mystère qui habite ce lieu.
+
+Les fragments me guident, mais leur pouvoir m'effraie. Strasbourg garde ses secrets pour une raison. Je crains que les vérités que je découvre n'aient un prix, un prix que je ne suis pas encore prêt à payer.`,
     },
     en: {
       id: 17,
       location: 'Cathédrale de Strasbourg',
       date: 'March 5, 1871',
       narrator: 'armand',
-      text: `The Strasbourg Cathedral. An imposing monument, a timeless sentinel of the city. Every stone seems charged with memory, every sculpture a silent guardian of a forgotten secret.
+      text: `The Strasbourg Cathedral. An imposing monument, a timeless sentinel of the city, it has seen generations of men and women pass by, bearing witness to the most glorious stories as well as the darkest. Every stone seems charged with memory, every sculpture a silent guardian of a forgotten secret.
 
-It was in an adjacent building, just across from the Maison Kammerzell, that a discreet facade housed another of these fragments. Embedded in the wall, barely visible to the naked eye, the object seemed to be waiting to be found. Its black, engraved surface carried a particular gravity, as if it held a more intimate connection to this place.
+It is here, at the heart of this gigantic structure, that I am certain the answers to my questions lie. But it is not directly on its walls that I made my discovery. No, it is in an adjacent building, just across from the Maison Kammerzell. A discreet facade, which centuries of history seemed to want to erase, housed another of these fragments.
 
-The stories of Hans-Erik Mülheim keep coming back to me. His obsession with these artifacts, his dealings at "Au Canon," and his tragic end on the Pont du Corbeau cannot be coincidences.
+Embedded in the wall, barely visible to the naked eye, the object seemed to be waiting to be found. Its black surface, engraved with the symbols already encountered, reminded me of the other fragments, but this one carried a particular gravity, as if it held a more intimate connection to this place.
+
+The stories of Hans-Erik Mülheim keep coming back to me. This man, once one of the most powerful in Strasbourg, resided in the Maison Kammerzell, almost in the shadow of the Cathedral. His obsession with these artifacts, his dealings in places like the Restaurant "Au Canon," and his tragic end on the Pont du Corbeau cannot be coincidences. Was he simply a merchant caught in a mystery too great for him, or did he play a more active role in this story?
 
 A phrase engraved on a plaque near the entrance troubled me:
 "Where the shadows of stone meet the light of the stars, the passage opens."
 
-I am convinced that the Cathedral, more than any other place, holds the keys to this mystery.`,
+These words inevitably lead to the Cathedral. Was it a sanctuary for the Watchers of the Dawn? Or the stage for something greater, more terrifying?
+
+I am convinced that the Cathedral, more than any other place, holds the keys to this mystery. It is not merely a monument: it is the living heart of Strasbourg, the place where all the lines of this enigmatic cult converge.
+
+I will continue my research here. If this notebook is found, know this: the Cathedral is a book of stone, and every gargoyle, every column, every detail tells a part of what we have chosen to ignore. And the Maison Kammerzell, standing at its threshold, is not merely a prestigious residence. It is an echo of the mystery that inhabits this place.
+
+The fragments guide me, but their power frightens me. Strasbourg keeps its secrets for a reason. I fear that the truths I am uncovering come at a price — a price I am not yet ready to pay.`,
     },
   },
 }
