@@ -1,8 +1,12 @@
 <script setup lang="ts">
-const { state } = useProgression()
+const { state, isFinished } = useProgression()
 
 if (state.value.onboardingDone && state.value.rgpdAccepted) {
-  navigateTo('/map', { replace: true })
+  if (isFinished.value) {
+    navigateTo('/fin', { replace: true })
+  } else {
+    navigateTo('/map', { replace: true })
+  }
 } else {
   navigateTo('/onboarding', { replace: true })
 }

@@ -1,7 +1,7 @@
 export default defineNuxtRouteMiddleware((to) => {
   const { state } = useProgression()
 
-  const protectedRoutes = ['/map', '/checkpoint']
+  const protectedRoutes = ['/map', '/checkpoint', '/fin']
   const isProtected = protectedRoutes.some((r) => to.path.startsWith(r))
 
   if (isProtected) {
