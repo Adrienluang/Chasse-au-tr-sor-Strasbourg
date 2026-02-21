@@ -1,4 +1,8 @@
 <script setup lang="ts">
+definePageMeta({
+  middleware: ['auth'],
+})
+
 import type { MapMarker } from '~/components/LeafletMap.vue'
 import { parcours } from '~/data/parcours'
 
