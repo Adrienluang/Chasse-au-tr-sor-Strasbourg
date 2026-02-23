@@ -1,0 +1,7 @@
+services:
+  chasse-tresor:
+    build:
+      context: ./App
+      args:
+        NUXT_PUBLIC_GRAPHHOPPER_API_KEY: ${NUXT_PUBLIC_GRAPHHOPPER_API_KEY}
+    restart: unless-stopped

@@ -1,0 +1,21 @@
+name: chasse_tresor
+services:
+  chasse-tresor:
+    build:
+      context: /home/mathieu/dev/chasse_tresor/App
+      dockerfile: Dockerfile
+      args:
+        NUXT_PUBLIC_GRAPHHOPPER_API_KEY: ""
+    labels:
+      traefik.enable: "true"
+      traefik.http.routers.chasse-tresor.entrypoints: websecure
+      traefik.http.routers.chasse-tresor.rule: Host(`chasse-tresor.mathieufroehly.fr`)
+      traefik.http.routers.chasse-tresor.tls.certresolver: letsencrypt
+      traefik.http.services.chasse-tresor.loadbalancer.server.port: "80"
+    networks:
+      dokploy-network: null
+    restart: unless-stopped
+networks:
+  dokploy-network:
+    name: dokploy-network
+    external: true

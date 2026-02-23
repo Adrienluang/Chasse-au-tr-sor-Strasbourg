@@ -97,16 +97,24 @@
 
 ---
 
-## Phase 5 — i18n + PWA
+## Phase 5 — PWA
+
+* [ ] Installer `@vite-pwa/nuxt` (`npm install -D @vite-pwa/nuxt`)
+* [ ] Configurer manifest PWA (nom, icônes, couleurs, mode standalone)
+* [ ] Configurer service worker (stratégie cache)
+* [ ] Vérifier que l'app est installable (manifest valide)
+
+**Critère de succès :** App installable en PWA, fonctionne offline.
+
+---
+
+## Phase 6 — i18n (V2)
 
 * [ ] Installer `@nuxtjs/i18n` (`npm install -D @nuxtjs/i18n`)
 * [ ] Créer `App/i18n/fr.json` et `App/i18n/en.json`
 * [ ] Configurer i18n dans `nuxt.config.ts` (lazy loading, locale par défaut FR)
 * [ ] Remplacer tous les textes en dur par des clés i18n
-* [ ] Installer `@vite-pwa/nuxt` (`npm install -D @vite-pwa/nuxt`)
-* [ ] Configurer manifest PWA (nom, icônes, couleurs, mode standalone)
-* [ ] Configurer service worker (stratégie cache)
+* [ ] Connecter `LanguageSelector.vue` à `@nuxtjs/i18n`
 * [ ] Test E2E Playwright : changer langue → vérifier que les textes changent
-* [ ] Vérifier que l'app est installable (manifest valide)
 
-**Critère de succès :** App installable en PWA, bilingue FR/EN fonctionnel.
+**Critère de succès :** App bilingue FR/EN fonctionnel, `LanguageSelector` intégré avec i18n.

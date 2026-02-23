@@ -1,0 +1,14 @@
+services:
+  chasse-tresor:
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.chasse-tresor.rule=Host(`chasse-tresor.mathieufroehly.fr`)"
+      - "traefik.http.routers.chasse-tresor.entrypoints=websecure"
+      - "traefik.http.routers.chasse-tresor.tls.certresolver=letsencrypt"
+      - "traefik.http.services.chasse-tresor.loadbalancer.server.port=80"
+    networks:
+      - dokploy-network
+
+networks:
+  dokploy-network:
+    external: true
